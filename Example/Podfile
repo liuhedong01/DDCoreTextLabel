@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'DDCoreTextLabel_Example' do
+  pod 'DDCoreTextLabel', :path => '../'
+
+  target 'DDCoreTextLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
