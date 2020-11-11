@@ -63,6 +63,9 @@
 #pragma mark - 刷新点击事件
 - (void)_refreshData
 {
+    [self.dataArray removeAllObjects];
+    [self.tableView reloadData];
+    
     [self _reqeustData];
 }
 
@@ -71,6 +74,27 @@
 {
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         [self _makeData];
+    });
+}
+
+#pragma mark - 刷新数据
+- (void)_reloadData
+{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [self.tableView reloadData];
+    });
+}
+
+- (void)_reloadDataWithSection:(NSInteger)section
+{
+    if (section >= self.dataArray.count) {
+        return;
+    }
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.displaysAsynchronously = NO;
+        [self.tableView reloadData];
+        self.displaysAsynchronously = YES;
     });
 }
 
@@ -95,35 +119,10 @@
         
 }
 
-#pragma mark - 刷新数据
-- (void)_reloadData
-{
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self.tableView reloadData];
-    });
-}
-
-- (void)_reloadDataWithSection:(NSInteger)section
-{
-    if (section >= self.dataArray.count) {
-        return;
-    }
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        self.displaysAsynchronously = NO;
-        [self.tableView reloadData];
-        self.displaysAsynchronously = YES;
-    });
-}
-
 
 #pragma mark - 制造假数据
 - (void)_makeData
 {
-    [self.dataArray removeAllObjects];
-    
-    [self _reloadData];
-
     for (NSInteger i = 0; i < [FriendCircleData randomMin]; i++) {
         DDFriendCircleItemModel * model = [[DDFriendCircleItemModel alloc] init];
         model.nick = [FriendCircleData randomName];
