@@ -14,3 +14,42 @@
     @import UIKit;
     @import Foundation;
 #endif
+
+
+/** 屏幕大小*/
+#define kScreenBounds [[UIScreen mainScreen] bounds]
+#define kScreenWidth kScreenBounds.size.width
+#define kScreenHeight kScreenBounds.size.height
+#define kScreenScale [[UIScreen mainScreen] scale]
+
+#import <SDWebImage/SDWebImage.h>
+#import <DDCoreTextLabel/DDCoreTextHeader.h>
+#import "UIColor+DDTools.h"
+#import "DDFriendCircleHeader.h"
+#import "UIImage+DDTools.h"
+#import "UIImageView+DDImage.h"
+
+
+static inline NSString * dd_toString(id object) {
+    //检测对象类型
+    //不是NSString类型，转换成NSString
+    if (!object) {
+        return @"";
+    }
+    if ([object isKindOfClass:[NSString class]]) {
+        return (NSString *)object;
+    } else if ([object isKindOfClass:[NSNumber class]]) {
+        return [NSString stringWithFormat:@"%@", object];
+    } else if ([object isKindOfClass:[NSNull class]]) {
+        return @"";
+    } else if([object isEqual:[NSNull null]]) {
+        return @"";
+    } else if (object == nil ) {
+        return @"";
+    } else if (object == NULL ) {
+        return @"";
+    }else {
+        return @"";
+    }
+}
+

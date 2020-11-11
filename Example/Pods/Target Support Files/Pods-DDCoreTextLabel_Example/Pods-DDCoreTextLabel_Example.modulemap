@@ -1,0 +1,6 @@
+framework module Pods_DDCoreTextLabel_Example {
+  umbrella header "Pods-DDCoreTextLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

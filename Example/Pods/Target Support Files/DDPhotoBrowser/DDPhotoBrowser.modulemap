@@ -1,0 +1,6 @@
+framework module DDPhotoBrowser {
+  umbrella header "DDPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

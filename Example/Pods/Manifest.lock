@@ -1,0 +1,29 @@
+PODS:
+  - DDCoreTextLabel (1.0.0)
+  - DDPhotoBrowser (2.0.2)
+  - SDWebImage (5.9.4):
+    - SDWebImage/Core (= 5.9.4)
+  - SDWebImage/Core (5.9.4)
+
+DEPENDENCIES:
+  - DDCoreTextLabel (from `../`)
+  - DDPhotoBrowser (= 2.0.2)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - DDPhotoBrowser
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  DDCoreTextLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDCoreTextLabel: c9e7bbcba7209ad3452e45251a1f33c1f13db6df
+  DDPhotoBrowser: 4ff162a1ad8ce32776ab248480a283bf1fb31e73
+  SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+
+PODFILE CHECKSUM: a42bae571444d0d82056daabfca9628454a2b33e
+
+COCOAPODS: 1.10.0

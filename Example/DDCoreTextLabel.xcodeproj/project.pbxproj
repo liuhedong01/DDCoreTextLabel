@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DDAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,28 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		727C7CA1255A727900381DCE /* UIImageView+DDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C7CA0255A727900381DCE /* UIImageView+DDImage.m */; };
+		727C7CA6255A79A700381DCE /* UIImage+DDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C7CA5255A79A700381DCE /* UIImage+DDTools.m */; };
+		727C7CC1255A98A400381DCE /* DDPhotoSDImageDownloadEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C7CBC255A98A400381DCE /* DDPhotoSDImageDownloadEngine.m */; };
+		727C7CC2255A98A400381DCE /* DDSDAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C7CBF255A98A400381DCE /* DDSDAnimatedImageView.m */; };
+		727C7CFE255ADF6900381DCE /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 727C7CFD255ADF6900381DCE /* YYFPSLabel.m */; };
+		72E82E1D2557946F001A48D1 /* DDFriendCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E192557946F001A48D1 /* DDFriendCircleViewController.m */; };
+		72E82E242557A006001A48D1 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E232557A006001A48D1 /* MainTabBarViewController.m */; };
+		72E82E302558DD58001A48D1 /* DDTest1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E2F2558DD58001A48D1 /* DDTest1ViewController.m */; };
+		72E82E4C2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E4B2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.m */; };
+		72E82E512558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E502558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.m */; };
+		72E82E5F2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E5D2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.m */; };
+		72E82E642558EF89001A48D1 /* DDFriendCirclePhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E632558EF89001A48D1 /* DDFriendCirclePhotoContainerView.m */; };
+		72E82E732558FCB5001A48D1 /* DDFriendCircleBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E722558FCB5001A48D1 /* DDFriendCircleBaseModel.m */; };
+		72E82E782558FCCF001A48D1 /* DDFriendCircleItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E772558FCCF001A48D1 /* DDFriendCircleItemModel.m */; };
+		72E82E8725591251001A48D1 /* DDFriendCircleItemLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E8625591251001A48D1 /* DDFriendCircleItemLayoutModel.m */; };
+		72E82E8C25591277001A48D1 /* DDFriendCircleCommentLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E8B25591277001A48D1 /* DDFriendCircleCommentLayoutModel.m */; };
+		72E82E93255918AB001A48D1 /* UIColor+DDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E92255918AB001A48D1 /* UIColor+DDTools.m */; };
+		72E82E9B25591E2C001A48D1 /* DDFriendCircleUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82E9A25591E2C001A48D1 /* DDFriendCircleUtils.m */; };
+		72E82EA225591EF6001A48D1 /* DDFriendCircleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82EA125591EF6001A48D1 /* DDFriendCircleHeader.m */; };
+		72E82EAC25594C60001A48D1 /* DDFriendCircleViewController+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82EAB25594C60001A48D1 /* DDFriendCircleViewController+Data.m */; };
+		72E82EB1255952DF001A48D1 /* DDFriendCircleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82EB0255952DF001A48D1 /* DDFriendCircleBaseViewController.m */; };
+		72E82EB825597E6F001A48D1 /* FriendCircleData.m in Sources */ = {isa = PBXBuildFile; fileRef = 72E82EB725597E6F001A48D1 /* FriendCircleData.m */; };
 		C4DCCB0741078E8A166230F3 /* Pods_DDCoreTextLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E364E2652000344810DC43E /* Pods_DDCoreTextLabel_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C655767C2D693B916237AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C655767C2D693B916237AD8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24A65FC821C6CE86E2555CCE /* Pods-DDCoreTextLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCoreTextLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-DDCoreTextLabel_Example/Pods-DDCoreTextLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4E364E2652000344810DC43E /* Pods_DDCoreTextLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDCoreTextLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		552646911FCF4CECA0BDADEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		552646911FCF4CECA0BDADEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		557A9DC486E4F2E42C993855 /* Pods-DDCoreTextLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCoreTextLabel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDCoreTextLabel_Tests/Pods-DDCoreTextLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DE5EBC5C7D5D5E63669AD82 /* Pods-DDCoreTextLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCoreTextLabel_Tests.release.xcconfig"; path = "Target Support Files/Pods-DDCoreTextLabel_Tests/Pods-DDCoreTextLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DDCoreTextLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCoreTextLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,8 +73,6 @@
 		6003F59B195388D20070C39A /* DDCoreTextLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDCoreTextLabel-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* DDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* DDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DDCoreTextLabel_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCoreTextLabel_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +81,53 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		727C7C9F255A727900381DCE /* UIImageView+DDImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DDImage.h"; sourceTree = "<group>"; };
+		727C7CA0255A727900381DCE /* UIImageView+DDImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DDImage.m"; sourceTree = "<group>"; };
+		727C7CA4255A79A700381DCE /* UIImage+DDTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DDTools.h"; sourceTree = "<group>"; };
+		727C7CA5255A79A700381DCE /* UIImage+DDTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DDTools.m"; sourceTree = "<group>"; };
+		727C7CBC255A98A400381DCE /* DDPhotoSDImageDownloadEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPhotoSDImageDownloadEngine.m; sourceTree = "<group>"; };
+		727C7CBD255A98A400381DCE /* DDPhotoSDImageDownloadEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPhotoSDImageDownloadEngine.h; sourceTree = "<group>"; };
+		727C7CBF255A98A400381DCE /* DDSDAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSDAnimatedImageView.m; sourceTree = "<group>"; };
+		727C7CC0255A98A400381DCE /* DDSDAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSDAnimatedImageView.h; sourceTree = "<group>"; };
+		727C7CFC255ADF6900381DCE /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		727C7CFD255ADF6900381DCE /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		72E82E182557946F001A48D1 /* DDFriendCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleViewController.h; sourceTree = "<group>"; };
+		72E82E192557946F001A48D1 /* DDFriendCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleViewController.m; sourceTree = "<group>"; };
+		72E82E222557A006001A48D1 /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		72E82E232557A006001A48D1 /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		72E82E2E2558DD58001A48D1 /* DDTest1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTest1ViewController.h; sourceTree = "<group>"; };
+		72E82E2F2558DD58001A48D1 /* DDTest1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTest1ViewController.m; sourceTree = "<group>"; };
+		72E82E4A2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleContentSectionHeaderView.h; sourceTree = "<group>"; };
+		72E82E4B2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleContentSectionHeaderView.m; sourceTree = "<group>"; };
+		72E82E4F2558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleCommentTableViewCell.h; sourceTree = "<group>"; };
+		72E82E502558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleCommentTableViewCell.m; sourceTree = "<group>"; };
+		72E82E5D2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleSectionFooterLineView.m; sourceTree = "<group>"; };
+		72E82E5E2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleSectionFooterLineView.h; sourceTree = "<group>"; };
+		72E82E622558EF89001A48D1 /* DDFriendCirclePhotoContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCirclePhotoContainerView.h; sourceTree = "<group>"; };
+		72E82E632558EF89001A48D1 /* DDFriendCirclePhotoContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCirclePhotoContainerView.m; sourceTree = "<group>"; };
+		72E82E712558FCB5001A48D1 /* DDFriendCircleBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleBaseModel.h; sourceTree = "<group>"; };
+		72E82E722558FCB5001A48D1 /* DDFriendCircleBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleBaseModel.m; sourceTree = "<group>"; };
+		72E82E762558FCCF001A48D1 /* DDFriendCircleItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleItemModel.h; sourceTree = "<group>"; };
+		72E82E772558FCCF001A48D1 /* DDFriendCircleItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleItemModel.m; sourceTree = "<group>"; };
+		72E82E8525591251001A48D1 /* DDFriendCircleItemLayoutModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleItemLayoutModel.h; sourceTree = "<group>"; };
+		72E82E8625591251001A48D1 /* DDFriendCircleItemLayoutModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleItemLayoutModel.m; sourceTree = "<group>"; };
+		72E82E8A25591277001A48D1 /* DDFriendCircleCommentLayoutModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleCommentLayoutModel.h; sourceTree = "<group>"; };
+		72E82E8B25591277001A48D1 /* DDFriendCircleCommentLayoutModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleCommentLayoutModel.m; sourceTree = "<group>"; };
+		72E82E91255918A7001A48D1 /* UIColor+DDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DDTools.h"; sourceTree = "<group>"; };
+		72E82E92255918AB001A48D1 /* UIColor+DDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DDTools.m"; sourceTree = "<group>"; };
+		72E82E9925591E2C001A48D1 /* DDFriendCircleUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleUtils.h; sourceTree = "<group>"; };
+		72E82E9A25591E2C001A48D1 /* DDFriendCircleUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleUtils.m; sourceTree = "<group>"; };
+		72E82EA025591EF6001A48D1 /* DDFriendCircleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleHeader.h; sourceTree = "<group>"; };
+		72E82EA125591EF6001A48D1 /* DDFriendCircleHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleHeader.m; sourceTree = "<group>"; };
+		72E82EAA25594C60001A48D1 /* DDFriendCircleViewController+Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDFriendCircleViewController+Data.h"; sourceTree = "<group>"; };
+		72E82EAB25594C60001A48D1 /* DDFriendCircleViewController+Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DDFriendCircleViewController+Data.m"; sourceTree = "<group>"; };
+		72E82EAF255952DF001A48D1 /* DDFriendCircleBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFriendCircleBaseViewController.h; sourceTree = "<group>"; };
+		72E82EB0255952DF001A48D1 /* DDFriendCircleBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFriendCircleBaseViewController.m; sourceTree = "<group>"; };
+		72E82EB625597E69001A48D1 /* FriendCircleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendCircleData.h; sourceTree = "<group>"; };
+		72E82EB725597E6F001A48D1 /* FriendCircleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendCircleData.m; sourceTree = "<group>"; };
 		9B10B33E5FC24788E78CDD42 /* Pods-DDCoreTextLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDCoreTextLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-DDCoreTextLabel_Example/Pods-DDCoreTextLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EDA0178D8BB410B7A78B69CC /* Pods_DDCoreTextLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDCoreTextLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFC1D2EFEB7504D3F8874900 /* DDCoreTextLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDCoreTextLabel.podspec; path = ../DDCoreTextLabel.podspec; sourceTree = "<group>"; };
+		FFC1D2EFEB7504D3F8874900 /* DDCoreTextLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDCoreTextLabel.podspec; path = ../DDCoreTextLabel.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +164,6 @@
 				557A9DC486E4F2E42C993855 /* Pods-DDCoreTextLabel_Tests.debug.xcconfig */,
 				5DE5EBC5C7D5D5E63669AD82 /* Pods-DDCoreTextLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,11 +204,11 @@
 		6003F593195388D20070C39A /* Example for DDCoreTextLabel */ = {
 			isa = PBXGroup;
 			children = (
+				727C7CBA255A98A400381DCE /* DDPhotoBrowser */,
+				72E82E902559188D001A48D1 /* Tools */,
+				72E82E162557944B001A48D1 /* Modules */,
 				6003F59C195388D20070C39A /* DDAppDelegate.h */,
 				6003F59D195388D20070C39A /* DDAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* DDViewController.h */,
-				6003F5A6195388D20070C39A /* DDViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -195,6 +255,174 @@
 				0C655767C2D693B916237AD8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		72790ECF25568FA900F03D56 /* DDFriendCircle(模仿朋友圈) */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E9825591D7A001A48D1 /* Tools */,
+				72E82E1C2557946F001A48D1 /* Models */,
+				72E82E172557946F001A48D1 /* ViewController */,
+				72E82E1B2557946F001A48D1 /* ViewModels */,
+				72E82E1A2557946F001A48D1 /* Views */,
+			);
+			name = "DDFriendCircle(模仿朋友圈)";
+			sourceTree = "<group>";
+		};
+		727C7CBA255A98A400381DCE /* DDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				727C7CBB255A98A400381DCE /* DDPhotoImageDownloadEngine */,
+				727C7CBE255A98A400381DCE /* DDImageViewEngine */,
+			);
+			path = DDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		727C7CBB255A98A400381DCE /* DDPhotoImageDownloadEngine */ = {
+			isa = PBXGroup;
+			children = (
+				727C7CBD255A98A400381DCE /* DDPhotoSDImageDownloadEngine.h */,
+				727C7CBC255A98A400381DCE /* DDPhotoSDImageDownloadEngine.m */,
+			);
+			path = DDPhotoImageDownloadEngine;
+			sourceTree = "<group>";
+		};
+		727C7CBE255A98A400381DCE /* DDImageViewEngine */ = {
+			isa = PBXGroup;
+			children = (
+				727C7CC0255A98A400381DCE /* DDSDAnimatedImageView.h */,
+				727C7CBF255A98A400381DCE /* DDSDAnimatedImageView.m */,
+			);
+			path = DDImageViewEngine;
+			sourceTree = "<group>";
+		};
+		72E82E162557944B001A48D1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E2C2558DD3F001A48D1 /* DDTest1 */,
+				72E82E2025579F85001A48D1 /* MainTabBar */,
+				72790ECF25568FA900F03D56 /* DDFriendCircle(模仿朋友圈) */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		72E82E172557946F001A48D1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72E82EAF255952DF001A48D1 /* DDFriendCircleBaseViewController.h */,
+				72E82EB0255952DF001A48D1 /* DDFriendCircleBaseViewController.m */,
+				72E82E182557946F001A48D1 /* DDFriendCircleViewController.h */,
+				72E82E192557946F001A48D1 /* DDFriendCircleViewController.m */,
+				72E82EAA25594C60001A48D1 /* DDFriendCircleViewController+Data.h */,
+				72E82EAB25594C60001A48D1 /* DDFriendCircleViewController+Data.m */,
+			);
+			name = ViewController;
+			path = Modules/DDFriendCircle/ViewController;
+			sourceTree = "<group>";
+		};
+		72E82E1A2557946F001A48D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E4A2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.h */,
+				72E82E4B2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.m */,
+				72E82E4F2558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.h */,
+				72E82E502558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.m */,
+				72E82E5E2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.h */,
+				72E82E5D2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.m */,
+				72E82E622558EF89001A48D1 /* DDFriendCirclePhotoContainerView.h */,
+				72E82E632558EF89001A48D1 /* DDFriendCirclePhotoContainerView.m */,
+			);
+			name = Views;
+			path = Modules/DDFriendCircle/Views;
+			sourceTree = "<group>";
+		};
+		72E82E1B2557946F001A48D1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E8525591251001A48D1 /* DDFriendCircleItemLayoutModel.h */,
+				72E82E8625591251001A48D1 /* DDFriendCircleItemLayoutModel.m */,
+				72E82E8A25591277001A48D1 /* DDFriendCircleCommentLayoutModel.h */,
+				72E82E8B25591277001A48D1 /* DDFriendCircleCommentLayoutModel.m */,
+			);
+			name = ViewModels;
+			path = Modules/DDFriendCircle/ViewModels;
+			sourceTree = "<group>";
+		};
+		72E82E1C2557946F001A48D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E712558FCB5001A48D1 /* DDFriendCircleBaseModel.h */,
+				72E82E722558FCB5001A48D1 /* DDFriendCircleBaseModel.m */,
+				72E82E762558FCCF001A48D1 /* DDFriendCircleItemModel.h */,
+				72E82E772558FCCF001A48D1 /* DDFriendCircleItemModel.m */,
+			);
+			name = Models;
+			path = Modules/DDFriendCircle/Models;
+			sourceTree = "<group>";
+		};
+		72E82E2025579F85001A48D1 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E2125579F99001A48D1 /* ViewControllers */,
+			);
+			name = MainTabBar;
+			sourceTree = "<group>";
+		};
+		72E82E2125579F99001A48D1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E222557A006001A48D1 /* MainTabBarViewController.h */,
+				72E82E232557A006001A48D1 /* MainTabBarViewController.m */,
+			);
+			name = ViewControllers;
+			path = Modules/MainTabBar/ViewControllers;
+			sourceTree = "<group>";
+		};
+		72E82E2C2558DD3F001A48D1 /* DDTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E2D2558DD47001A48D1 /* ViewController */,
+			);
+			name = DDTest1;
+			sourceTree = "<group>";
+		};
+		72E82E2D2558DD47001A48D1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E2E2558DD58001A48D1 /* DDTest1ViewController.h */,
+				72E82E2F2558DD58001A48D1 /* DDTest1ViewController.m */,
+			);
+			name = ViewController;
+			path = Modules/DDTest1/ViewController;
+			sourceTree = "<group>";
+		};
+		72E82E902559188D001A48D1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				727C7CFC255ADF6900381DCE /* YYFPSLabel.h */,
+				727C7CFD255ADF6900381DCE /* YYFPSLabel.m */,
+				72E82E91255918A7001A48D1 /* UIColor+DDTools.h */,
+				72E82E92255918AB001A48D1 /* UIColor+DDTools.m */,
+				727C7C9F255A727900381DCE /* UIImageView+DDImage.h */,
+				727C7CA0255A727900381DCE /* UIImageView+DDImage.m */,
+				727C7CA4255A79A700381DCE /* UIImage+DDTools.h */,
+				727C7CA5255A79A700381DCE /* UIImage+DDTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		72E82E9825591D7A001A48D1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				72E82E9925591E2C001A48D1 /* DDFriendCircleUtils.h */,
+				72E82E9A25591E2C001A48D1 /* DDFriendCircleUtils.m */,
+				72E82EA025591EF6001A48D1 /* DDFriendCircleHeader.h */,
+				72E82EA125591EF6001A48D1 /* DDFriendCircleHeader.m */,
+				72E82EB625597E69001A48D1 /* FriendCircleData.h */,
+				72E82EB725597E6F001A48D1 /* FriendCircleData.m */,
+			);
+			name = Tools;
+			path = Modules/DDFriendCircle/Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +486,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +506,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -347,10 +575,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DDCoreTextLabel_Example/Pods-DDCoreTextLabel_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DDCoreTextLabel/DDCoreTextLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/DDPhotoBrowser/DDPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DDCoreTextLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DDPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,9 +596,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727C7CA6255A79A700381DCE /* UIImage+DDTools.m in Sources */,
+				72E82EB1255952DF001A48D1 /* DDFriendCircleBaseViewController.m in Sources */,
+				72E82E302558DD58001A48D1 /* DDTest1ViewController.m in Sources */,
+				727C7CC1255A98A400381DCE /* DDPhotoSDImageDownloadEngine.m in Sources */,
+				727C7CA1255A727900381DCE /* UIImageView+DDImage.m in Sources */,
+				72E82E5F2558EE24001A48D1 /* DDFriendCircleSectionFooterLineView.m in Sources */,
+				72E82E9B25591E2C001A48D1 /* DDFriendCircleUtils.m in Sources */,
+				72E82E732558FCB5001A48D1 /* DDFriendCircleBaseModel.m in Sources */,
 				6003F59E195388D20070C39A /* DDAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* DDViewController.m in Sources */,
+				727C7CC2255A98A400381DCE /* DDSDAnimatedImageView.m in Sources */,
+				72E82E242557A006001A48D1 /* MainTabBarViewController.m in Sources */,
+				72E82E8725591251001A48D1 /* DDFriendCircleItemLayoutModel.m in Sources */,
+				72E82E642558EF89001A48D1 /* DDFriendCirclePhotoContainerView.m in Sources */,
+				72E82E1D2557946F001A48D1 /* DDFriendCircleViewController.m in Sources */,
+				72E82E8C25591277001A48D1 /* DDFriendCircleCommentLayoutModel.m in Sources */,
+				72E82EB825597E6F001A48D1 /* FriendCircleData.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				72E82EA225591EF6001A48D1 /* DDFriendCircleHeader.m in Sources */,
+				727C7CFE255ADF6900381DCE /* YYFPSLabel.m in Sources */,
+				72E82E512558E86D001A48D1 /* DDFriendCircleCommentTableViewCell.m in Sources */,
+				72E82EAC25594C60001A48D1 /* DDFriendCircleViewController+Data.m in Sources */,
+				72E82E782558FCCF001A48D1 /* DDFriendCircleItemModel.m in Sources */,
+				72E82E93255918AB001A48D1 /* UIColor+DDTools.m in Sources */,
+				72E82E4C2558E6D6001A48D1 /* DDFriendCircleContentSectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,13 +747,17 @@
 			baseConfigurationReference = 24A65FC821C6CE86E2555CCE /* Pods-DDCoreTextLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDCoreTextLabel/DDCoreTextLabel-Prefix.pch";
 				INFOPLIST_FILE = "DDCoreTextLabel/DDCoreTextLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -510,13 +767,17 @@
 			baseConfigurationReference = 9B10B33E5FC24788E78CDD42 /* Pods-DDCoreTextLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DDCoreTextLabel/DDCoreTextLabel-Prefix.pch";
 				INFOPLIST_FILE = "DDCoreTextLabel/DDCoreTextLabel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

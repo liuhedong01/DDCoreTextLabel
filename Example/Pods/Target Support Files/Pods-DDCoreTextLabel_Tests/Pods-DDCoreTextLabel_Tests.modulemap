@@ -1,0 +1,6 @@
+framework module Pods_DDCoreTextLabel_Tests {
+  umbrella header "Pods-DDCoreTextLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

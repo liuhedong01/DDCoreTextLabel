@@ -1,9 +1,11 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'DDCoreTextLabel_Example' do
   pod 'DDCoreTextLabel', :path => '../'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'DDPhotoBrowser', '2.0.2'
 
   target 'DDCoreTextLabel_Tests' do
     inherit! :search_paths
