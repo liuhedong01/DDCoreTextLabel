@@ -21,10 +21,9 @@ http://code.cocoachina.com/view/1000646
 
 <img src="https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E5%85%B6%E4%BB%96%E6%BC%94%E7%A4%BA.gif" width="320"><br/>
 
-![](https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E6%BB%91%E5%8A%A8%E9%80%9F%E5%BA%A6FPS%E6%BC%94%E7%A4%BA.gif)
+<img src="https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E6%BB%91%E5%8A%A8%E9%80%9F%E5%BA%A6FPS%E6%BC%94%E7%A4%BA.gif" width="320"><br/>
 
-![](https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E6%9F%A5%E7%9C%8B%E5%9B%BE%E7%89%87%E6%BC%94%E7%A4%BA.gif)
-
+<img src="https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E6%9F%A5%E7%9C%8B%E5%9B%BE%E7%89%87%E6%BC%94%E7%A4%BA.gif" width="320"><br/>
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
