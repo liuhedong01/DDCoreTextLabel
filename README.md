@@ -11,6 +11,8 @@
 
 仅供参考
 
+http://code.cocoachina.com/view/1000646
+
 ![](https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E6%BB%91%E5%8A%A8%E9%80%9F%E5%BA%A6FPS%E6%BC%94%E7%A4%BA.gif)
 
 ![](https://github.com/liuhedong01/DDCoreTextLabel/blob/master/%E5%85%B6%E4%BB%96%E6%BC%94%E7%A4%BA.gif)
