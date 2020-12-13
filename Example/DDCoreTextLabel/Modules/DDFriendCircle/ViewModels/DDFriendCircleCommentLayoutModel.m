@@ -100,11 +100,8 @@
 //    fromHighlight.tag = BSH_FriendCircle_TextHighlightUserClickedTag;
     
     /** 添加用户点击扩展信息 */
-//    BSHFriendCircleDynamicUserModel * userModel = [[BSHFriendCircleDynamicUserModel alloc] init];
-//    userModel.userno = self.model.createUserno;
-//    userModel.nickName = fromeNickName;
-//    userModel.portraitUrl = self.model.portraitUrl;
-//    fromHighlight.userInfo = @{@"tag":@(BSH_FriendCircle_TextHighlightUserClickedTag),@"data":userModel};
+//    userModel.portraitUrl = self.model.portrait;
+//    fromHighlight.userInfo = @{@"tag":@(FriendCircle_TextHighlightUserClickedTag),@"data":userModel};
     
     [commentAttr dd_setTextHighlight:fromHighlight range:NSMakeRange(0, fromeNickName.length)];
     
@@ -117,12 +114,9 @@
         toHighlight.tag = DD_FriendCircle_TextHighlightUserClickedTag;
         toHighlight.content = replyUsernick;
         /** 添加用户点击扩展信息 */
-//        BSHFriendCircleDynamicUserModel * userModel = [[BSHFriendCircleDynamicUserModel alloc] init];
-//        userModel.userno = self.model.replyUserno;
-//        userModel.nickName = replyUsernick;
 //        userModel.portraitUrl = @"";
 //
-//        toHighlight.userInfo = @{@"tag":@(BSH_FriendCircle_TextHighlightUserClickedTag),@"data":userModel};
+//        toHighlight.userInfo = @{@"tag":@(FriendCircle_TextHighlightUserClickedTag),@"data":userModel};
         
         
         [commentAttr dd_setTextHighlight:toHighlight range:NSMakeRange([NSString stringWithFormat:@"%@%@",fromeNickName,replyText].length, replyUsernick.length)];
