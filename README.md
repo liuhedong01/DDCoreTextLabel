@@ -7,14 +7,14 @@
 
 ## Example
 
-2018年写的异步绘制，已在项目中稳定运行到现在，60 FPS ，demo供参考
-DDCoreTextLabel纯swift版本一直拖着，由于工作饱和，还需要一段时间
+##### 2018年写的异步绘制，已在项目中稳定运行到现在，60 FPS ，demo供参考
+##### DDCoreTextLabel纯swift的版本在路上，由于工作饱和，还需要一段时间
 
-demo列表显示结构：
-        tableView 的 每个section 是一个动态
-        section的 sectionHeader 显示动态的 基本信息 和 点赞 内容
-        section对应的row显示对应的 评论，评论显示可复用
-        section的sectionFooter 显示 每个动态的分割线
+#### demo列表显示结构：
+      tableView 的 每个section 是一个动态
+      section的 sectionHeader 显示动态的 基本信息 和 点赞 内容
+      section对应的row显示对应的 评论，评论显示可复用
+      section的sectionFooter 显示 每个动态的分割线
 
 
 DDCoreTextLabel 参考：[YYKit](https://github.com/ibireme/YYKit) 核心思想，非YYKit实现
