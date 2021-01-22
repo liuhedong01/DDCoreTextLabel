@@ -90,12 +90,13 @@
     if (section >= self.dataArray.count) {
         return;
     }
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
+        
+    [UIView performWithoutAnimation:^{
         self.displaysAsynchronously = NO;
-        [self.tableView reloadData];
+        [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationAutomatic];
         self.displaysAsynchronously = YES;
-    });
+    }];
+
 }
 
 #pragma mark - 界面布局
